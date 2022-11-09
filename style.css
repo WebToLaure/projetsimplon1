@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Quattrocento Sans', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size:1.3em;
+    color:rgba(0,0,0,0.8);
+    padding:20px;
+    margin:20px;
+}
+
+header{
+    display: flex;
+    height: 50%;
+    
+}
