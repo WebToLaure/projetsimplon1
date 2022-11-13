@@ -1,19 +1,52 @@
-*{
-    margin:0px;
-    padding:0px;
-}
+
 body {
     font-family: 'Quattrocento Sans', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
     font-size:1.3em;
     color:rgba(0,0,0,0.8);
-    padding:20px;
-    margin:20px;
-    background-color:white;
+    background-color:rgb(73, 68, 95);
 }
 
 header{
     display: flex;
     flex-direction:column;
-    justify-content: space-around;
-    align-items: center;
+}
+.hero {
+    border: solide black;
+    border-radius:7px;
+    background-color:rgb(50, 50, 103);
+    text-align:center;
+    margin:7%;
+
+}
+.container{
+    border:thick double black;
+}
+.citation {
+    border:5px solid black;
+    text-align:center;
+    padding-top:15px;
+    margin:3% 10% 4% 10%;
+    font-size:bold;
+}
+span {
+
+    font-size:120%;
+}
+.presentation {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    list-style:none;
+    padding:20px;
+}
+
+ol {
+    list-style:none;
+}
+
+.elements {
+display:flex;
+flex-direction:column;
+align-items:space-evenly;
+
 }
