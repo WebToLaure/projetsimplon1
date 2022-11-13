@@ -2,8 +2,8 @@
 body {
     font-family: 'Quattrocento Sans', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
     font-size:1.3em;
-    color:rgba(0,0,0,0.8);
-    background-color:rgb(73, 68, 95);
+    color:rgb(209, 231, 250);
+    background: linear-gradient(to left, #77728c, #77728c 50%, #eee 75%, #77728c 75%);
 }
 
 header{
@@ -13,9 +13,10 @@ header{
 .hero {
     border: solide black;
     border-radius:7px;
-    background-color:rgb(50, 50, 103);
+    background-color:rgb(31, 31, 66);
     text-align:center;
     margin:7%;
+    box-shadow: 3px 3px 7px 2px lightgray;
 
 }
 .container{
@@ -26,27 +27,77 @@ header{
     text-align:center;
     padding-top:15px;
     margin:3% 10% 4% 10%;
-    font-size:bold;
+    font-weight:bolder;
+    box-shadow: 3px 3px 7px 2px lightgray;
+    background-color: rgba(148, 143, 172,0.5);
+}
+p {
+    font-weight:lighter;
+    font-family: 'Signika Negative', sans-serif;
+    font-style:italic;
+    font-size:15px;
+    color:rgb(15, 16, 14);
 }
 span {
-
     font-size:120%;
 }
 .presentation {
     display:flex;
     flex-direction:column;
     align-items:center;
+    text-align:justify;
     list-style:none;
     padding:20px;
 }
 
 ol {
     list-style:none;
+    text-align:start;
+    padding-left:65px;
 }
 
-.elements {
-display:flex;
-flex-direction:column;
-align-items:space-evenly;
+li{
+    padding-right:10px;
+}
 
+.wrapper {
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+grid-gap:10px;
+grid-auto-rows:minmax(100px,auto);
+justify-items:center;
+color:rgba(15,16,14,0.8);
+font-weight:bold;
+}
+
+.one {
+    grid-column:1;
+    grid-row:1;
+}
+
+.two {
+    grid-column:2;
+    grid-row:1;
+}
+
+.three{
+    grid-column:1;
+    grid-row:2;
+}
+
+.four{
+    grid-column:2;
+    grid-row:2;
+}
+
+h3{
+    font-weight:bold;
+    text-align:center;
+}
+
+article {
+    border:black solid;
+    text-align:center;
+    box-shadow: 3px 3px 7px 2px lightgray;
 }
